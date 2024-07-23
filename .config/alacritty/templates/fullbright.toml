@@ -1,0 +1,25 @@
+[font]
+    # For normal use bc I like it better lol
+    normal = {family = "FiraMono Nerd Font", style = "Medium"}
+    size = 20
+    # for latex (has characters needed)
+    #normal = {family = "IosevkaTerm Nerd Font", style = "Regular"} 
+    italic = {family = "Hack Nerd Font Mono", style = "Italic"} 
+[[keyboard.bindings]]
+    chars = "\u001B[13;2u"
+    key = "Return"
+    mods = "Shift"
+
+[[keyboard.bindings]]
+    chars = "\u001B[13;5u"
+    key = "Return"
+    mods = "Control"
+
+[window]
+    opacity= 1
+    decorations = "None"
+    startup_mode = "Maximized"
+[colors]
+    transparent_background_colors = true
+[env]
+     Thad = "Stupid Monkey"
